@@ -42,7 +42,7 @@ if (params['archive'] && mode === 'file') {
 };
 
 // Convert string to bool if params["case"] exists else default to true
-var caseSense = params.hasOwnProperty('case') ? params['case'] == 'true'  : true;
+var caseSense = params.hasOwnProperty('case') ? params['case'] == 'true'  : false;
 
 var appSettings = {
     // Search Settings
